@@ -1,5 +1,3 @@
-// Адреса вашого локального сервера
-
 const BASE_URL = 'http://localhost:3000';
 
 // Дані для аутентифікації
@@ -50,7 +48,6 @@ const runTests = async () => {
   }
 
   // Сценарій 3: Успішний запит від імені адміністратора
-
   console.log('\n[TEST 3] Getting employees as an admin...');
 
   try {
